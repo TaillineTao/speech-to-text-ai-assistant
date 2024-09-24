@@ -25,7 +25,6 @@ stream = p.open(
 
 print(p.get_default_input_device_info())
 
-# the AssemblyAI endpoint we're going to hit
 URL = "wss://api.assemblyai.com/v2/realtime/ws?sample_rate=16000"
  
 async def send_receive():
